@@ -1,0 +1,20 @@
+Aprire l'album
+	
+FINCHE’ ho pacchetti da aprire 
+    Apro pacchetto
+	Raccolgo carte in mazzo nuovo
+		FINCHE’ ci sono carte in mazzo nuovo
+		    Vado a pagina corrispondente nell’album
+		    controllo carta
+			SE carta NON presente già nell’album
+			    Inserisco carta
+			ALTRIMENTI 
+			    Inserisco carta in mazzo “doppioni”
+			FINCHE’ mazzo “doppioni” NON è vuoto
+				Confronto carta in alto con amici
+					SE amici hanno già carta
+					ALLORA butto carta 
+					ALTRIMENTI scambio carta e ricevo carta nuova
+				        Inserisco carta nuova in mazzo nuovo
+Butto pacchetto
+
